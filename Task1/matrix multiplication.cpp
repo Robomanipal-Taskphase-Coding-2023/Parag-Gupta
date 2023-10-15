@@ -34,9 +34,8 @@ for (i=0;i<r2;i++)
   {
   for (j=0;j<c1;j++)
     {
-    //fin[i][j]= 0;
-    for (k=0;k<c1;k++)
-      fin[i][j] += mat1[i][k] * mat2[k][j];
+      for (k=0;k<c1;k++)
+        fin[i][j] += mat1[i][k] * mat2[k][j];
     }
   }
 cout << "Result of matrix multiplication:" << endl;
