@@ -23,12 +23,11 @@ class Stack:
     def size_(self):
         return len(self.elements)
 
-# Example usage:
-stack = Stack()
-stack.push_(1)
-stack.push_(2)
-stack.push_(3)
-
-print(stack.pop_())  # Output: 3 (LIFO)
-print(stack.peek_())  # Output: 2 (Top of the stack)
-print(stack.size_())  # Output: 2 (Number of elements in the stack)
+x = Stack()
+x.push_(14)
+x.push_(90)
+x.push_(72)
+x.push(30)
+x.pop_()
+x.peek_()
+x.size_()
